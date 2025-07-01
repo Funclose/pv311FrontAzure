@@ -1,0 +1,32 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.nav-shadow{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.avatar{
+    background-color: maroon;
+    border-radius: 50%;
+    color: aliceblue;
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20;
+}
+    
+.spacer{
+    flex: 1;
+}
+
+.footer{
+    line-height: 60px;
+    text-align: start;
+}
